@@ -4,7 +4,12 @@ export PATH
 #=======================================================================#
 #   System Supported:  CentOS 6+ / Debian 7+ / Ubuntu 12+               #
 #   Description: L2TP VPN Auto Installer                                #
-#             Linux 一键安装L2TP脚本 (汉化定制版)                       #
+#             Linux 一键安装L2TP脚本 (汉化定制版)  
+#               
+                    Telegram：@Sunny_8888
+                      我的网站：js8c.xyz
+                        微信:lvduroot
+#                                                                       #
 #=======================================================================#
 cur_dir=`pwd`
 
@@ -226,12 +231,12 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "请输入预共享密钥:"
-    read -p "(默认预共享密钥: yiluchangqing):" mypsk
-    [ -z ${mypsk} ] && mypsk="yiluchangqing"
+    read -p "(默认预共享密钥: lvduroot):" mypsk
+    [ -z ${mypsk} ] && mypsk="lvduroot"
 
     echo "请输入用户名:"
-    read -p "(默认用户名: yiluchangqing):" username
-    [ -z ${username} ] && username="yiluchangqing"
+    read -p "(默认用户名: lvduroot):" username
+    [ -z ${username} ] && username="lvduroot"
 
     password=`rand`
     echo "请输入 ${username}'s 密码:"
