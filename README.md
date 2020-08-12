@@ -4,7 +4,7 @@ L2TP一键安装脚本:
 作者:Merciless-A  
 汉化:Sunny8886667  
 <pre><code>
-wget --no-check-certificate https://raw.githubusercontent.com/Merciless-A/L2TP-Server/master/install.sh
+wget --no-check-certificate https://raw.githubusercontent.com/Sunny8886667/l2tp-server-dev/master/install.sh
 chmod a+x install.sh
 ./install.sh
 </code></pre>
