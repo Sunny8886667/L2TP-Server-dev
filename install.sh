@@ -4,11 +4,12 @@ export PATH
 #=======================================================================#
 #   System Supported:  CentOS 6+ / Debian 7+ / Ubuntu 12+               #
 #   Description: L2TP VPN Auto Installer                                #
-#             Linux 一键安装L2TP脚本 (汉化定制版)  
-#               
-                    Telegram：@Sunny_8888
-                      我的网站：js8c.xyz
-                        微信:lvduroot
+#             Linux 一键安装L2TP脚本 (汉化定制版)                         #
+#                                                                       #
+#                   Telegram：@Sunny_8888                               #
+#                     我的网站：js8c.xyz                                 #
+#                        微信:lvduroot                                  #
+#                                                                       #
 #                                                                       #
 #=======================================================================#
 cur_dir=`pwd`
@@ -658,7 +659,12 @@ finally(){
     echo "###############################################################"
     echo "# L2TP VPN Auto Installer                                     #"
     echo "# System Supported: CentOS 6+ / Debian 7+ / Ubuntu 12+        #"
-    echo "#          Linux 一键安装L2TP脚本 (汉化定制版)                #"
+    echo "#          Linux 一键安装L2TP脚本 (汉化定制版)                  #"
+    echo "#                                                             #"
+    echo "#                   Telegram：@Sunny_8888                     #"
+    echo "#                     我的网站：js8c.xyz                       #"
+    echo "#                        微信:lvduroot                        #"
+    echo "###############################################################"
     echo "###############################################################"
     echo "如果上面没有[FAILED]，您可以连接到您的L2TP "
     echo "L2TP使用用户名/密码的VPN服务器如下:"
@@ -686,7 +692,11 @@ l2tp(){
     echo "###############################################################"
     echo "# L2TP VPN Auto Installer                                     #"
     echo "# System Supported: CentOS 6+ / Debian 7+ / Ubuntu 12+        #"
-    echo "#          Linux 一键安装L2TP脚本 (汉化定制版)                #"
+    echo "#          Linux 一键安装L2TP脚本 (汉化定制版)                  #"
+    echo "#                                                             #"
+    echo "#                   Telegram：@Sunny_8888                     #"
+    echo "#                     我的网站：js8c.xyz                       #"
+    echo "#                        微信:lvduroot                        #"
     echo "###############################################################"
     echo
     rootness
