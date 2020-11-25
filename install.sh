@@ -233,11 +233,11 @@ preinstall_l2tp(){
 
     echo "请输入预共享密钥:"
     read -p "(默认预共享密钥: lvduroot):" mypsk
-    [ -z ${mypsk} ] && mypsk="lvduroot"
+    [ -z ${mypsk} ] && mypsk="xinyang"
 
     echo "请输入用户名:"
     read -p "(默认用户名: lvduroot):" username
-    [ -z ${username} ] && username="lvduroot"
+    [ -z ${username} ] && username="xinyang"
 
     password=`rand`
     echo "请输入 ${username}'s 密码:"
