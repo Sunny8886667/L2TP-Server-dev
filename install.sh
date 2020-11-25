@@ -232,12 +232,12 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "请输入预共享密钥:"
-    read -p "(默认预共享密钥: lvduroot):" mypsk
-    [ -z ${mypsk} ] && mypsk="lvduroot"
+    read -p "(默认预共享密钥: xinyang):" mypsk
+    [ -z ${mypsk} ] && mypsk="xinyang"
 
     echo "请输入用户名:"
-    read -p "(默认用户名: lvduroot):" username
-    [ -z ${username} ] && username="lvduroot"
+    read -p "(默认用户名: xinyang):" username
+    [ -z ${username} ] && username="xinyang"
 
     password=`rand`
     echo "请输入 ${username}'s 密码:"
@@ -692,10 +692,10 @@ l2tp(){
     echo "###############################################################"
     echo "# L2TP VPN Auto Installer                                     #"
     echo "# System Supported: CentOS 6+ / Debian 7+ / Ubuntu 12+        #"
-    echo "#          Linux 一键安装L2TP脚本 (汉化定制版)                  #"
+    echo "#          Linux 一键安装L2TP脚本 (定制版)                    #"
     echo "#                                                             #"
     echo "#                   Telegram：@Sunny_8888                     #"
-    echo "#                     我的网站：js8c.xyz                       #"
+    echo "#                     我的网站：js8c.xyz                      #"
     echo "#                        微信:lvduroot                        #"
     echo "###############################################################"
     echo
