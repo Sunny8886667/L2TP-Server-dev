@@ -232,12 +232,12 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "请输入预共享密钥:"
-    read -p "(默认预共享密钥: xinyang):" mypsk
-    [ -z ${mypsk} ] && mypsk="xinyang"
+    read -p "(默认预共享密钥: Bill_888):" mypsk
+    [ -z ${mypsk} ] && mypsk="Bill_888"
 
     echo "请输入用户名:"
-    read -p "(默认用户名: xinyang):" username
-    [ -z ${username} ] && username="xinyang"
+    read -p "(默认用户名: Bill_888):" username
+    [ -z ${username} ] && username="Bi"
 
     password=`rand`
     echo "请输入 ${username}'s 密码:"
