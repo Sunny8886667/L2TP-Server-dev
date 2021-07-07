@@ -7,9 +7,9 @@ export PATH
 #             Linux 一键安装L2TP脚本 (汉化定制版)                         #
 #                                                                       #
 #                   Telegram：@Sunny_8888                               #
-#                     我的网站：js8c.xyz                                 #
+#                     我的网站：zymfq.com                                #
 #                        微信:lvduroot                                  #
-#                                                                       #
+#                  技术支持联系我Tlelgram: @Sunny_8888                   #
 #                                                                       #
 #=======================================================================#
 cur_dir=`pwd`
@@ -232,8 +232,8 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "请输入预共享密钥:"
-    read -p "(默认预共享密钥: Bill_888):" mypsk
-    [ -z ${mypsk} ] && mypsk="Bill_888"
+    read -p "(默认预共享密钥: Bill_999):" mypsk
+    [ -z ${mypsk} ] && mypsk="Bill_999"
 
     echo "请输入用户名:"
     read -p "(默认用户名: Bill_888):" username
