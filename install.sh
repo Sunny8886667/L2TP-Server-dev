@@ -236,8 +236,8 @@ preinstall_l2tp(){
     [ -z ${mypsk} ] && mypsk="Bill_999"
 
     echo "请输入用户名:"
-    read -p "(默认用户名: Bill_888):" username
-    [ -z ${username} ] && username="Bi"
+    read -p "(默认用户名: Bill_999):" username
+    [ -z ${username} ] && username="Bill_999"
 
     password=`rand`
     echo "请输入 ${username}'s 密码:"
