@@ -6,7 +6,7 @@ export PATH
 #   Description: L2TP VPN Auto Installer                                #
 #             Linux 一键安装L2TP脚本 (汉化定制版)                         #
 #                                                                       #
-#                   Telegram：@Sunny_8888                               #
+#                   Telegram：@Bill_999                               #
 #                     我的网站：zymfq.com                                #
 #                        微信:lvduroot                                  #
 #                  技术支持联系我Tlelgram: @Sunny_8888                   #
